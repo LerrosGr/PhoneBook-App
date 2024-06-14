@@ -1,0 +1,12 @@
+.contactList {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.contactListItem {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #d3640f;
+}
