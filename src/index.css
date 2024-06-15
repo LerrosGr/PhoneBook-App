@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: black;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -14,8 +14,6 @@
 }
 #root {
   display: block;
-
-  padding: 2rem;
 }
 a {
   font-weight: 500;
@@ -27,15 +25,16 @@ a:hover {
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+h1,
+p {
+  margin: 0;
+  padding: 0;
 }
 
 button {

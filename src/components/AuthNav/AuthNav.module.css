@@ -1,0 +1,26 @@
+.link {
+  font-size: 20px;
+  transition: transform 0.2s ease-in-out;
+  display: inline-block;
+  color: white;
+}
+.link:hover {
+  color: orangered;
+}
+
+.active {
+  color: white;
+  text-decoration: underline;
+}
+
+.navWrapper {
+  margin-right: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.listNav {
+  display: flex;
+  gap: 30px;
+}
