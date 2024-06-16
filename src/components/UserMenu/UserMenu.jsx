@@ -13,8 +13,8 @@ export default function UserMenu() {
 
   return (
     <div className={css.container}>
-      <p>Welcome, {user.name}</p>
-      <button onClick={handleClick} type="button">
+      <p className={css.text}>Welcome, {user.name}!</p>
+      <button className={css.button} onClick={handleClick} type="button">
         Logout
       </button>
     </div>

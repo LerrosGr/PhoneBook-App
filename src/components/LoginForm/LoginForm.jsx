@@ -25,7 +25,7 @@ export default function LoginForm() {
         <Form className={css.form}>
           <img
             className={css.img}
-            src="https://cdn-icons-png.flaticon.com/512/2922/2922506.png"
+            src="../../../image/png-transparent-avatars-accounts-man-male-people-person-fashion-style-sunglasses-glasses-wavy-hair-male-avatars-free-d-illustration-thumbnail-removebg-preview.png"
             alt="profile image"
           />
           <label>Email</label>

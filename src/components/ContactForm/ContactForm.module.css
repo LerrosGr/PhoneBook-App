@@ -5,6 +5,11 @@
   justify-content: center;
   align-items: flex-start;
   margin-bottom: 20px;
+  margin-left: 100px;
+  border: 2px solid rgb(177, 53, 8);
+  width: fit-content;
+  padding: 30px;
+  border-radius: 20px;
 }
 .label {
   display: block;
@@ -14,7 +19,7 @@
 .formButton {
   margin-top: 10px;
   margin-left: 40px;
-  background-color: #d3640f;
+  background-color: rgb(177, 53, 8);
   color: #ffffff;
   padding: 10px 20px;
   border: 2px solid black;
@@ -25,14 +30,13 @@
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 .formButton:hover {
-  background-color: #b6520d;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  border: 2px solid rgb(177, 53, 8);
 }
 
 .input {
   padding-left: 10px;
   background-color: black;
-  border: 1px solid #d3640f;
+  border: 1px solid rgb(177, 53, 8);
   border-radius: 10px;
   height: 30px;
   width: 200px;

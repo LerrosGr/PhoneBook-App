@@ -12,7 +12,7 @@ export default function Navigation() {
   const isLoggedIn = useSelector(selectIsLoggedIn);
   return (
     <nav className={css.mainNav}>
-      <ul>
+      <ul className={css.listNav}>
         <li>
           <NavLink className={getLinkClass} to="/">
             Home

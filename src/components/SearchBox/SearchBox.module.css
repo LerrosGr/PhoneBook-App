@@ -2,7 +2,7 @@
   height: 30px;
   padding-left: 10px;
   background-color: black;
-  border: 1px solid #d3640f;
+  border: 2px solid rgb(177, 53, 8);
   border-radius: 10px;
   height: 30px;
   width: 200px;
@@ -12,7 +12,9 @@
   display: flex;
   flex-direction: column;
   gap: 15px;
+  margin-left: 100px;
 }
 .label {
   font-size: large;
+  font-weight: bold;
 }

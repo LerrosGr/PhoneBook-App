@@ -1,4 +1,25 @@
 .container {
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 20px;
+}
+.text {
+  color: white;
+  display: flex;
+  align-items: center;
+  font-size: large;
+  font-weight: bold;
+}
+.button {
+  margin-right: 100px;
+  padding: 0px 10px;
+  height: 30px;
+  background-color: grey;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
 }

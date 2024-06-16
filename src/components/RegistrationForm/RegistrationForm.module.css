@@ -1,8 +1,8 @@
 .formWrapper {
   max-width: 400px;
-  height: 300px;
+  margin-top: 170px !important;
   margin: 0 auto;
-  padding: 30px 20px;
+  padding: 80px 20px 40px 20px;
   background-color: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(10px);
   box-shadow: 0px 0 15px orangered;
@@ -13,7 +13,7 @@
   display: block;
   font-weight: bold;
   font-size: larger;
-  line-height: 0;
+  line-height: 1;
   color: #fff;
 }
 
@@ -33,6 +33,10 @@
   border: 2px solid rgb(177, 53, 8);
   border-radius: 4px;
   font-size: 16px;
+}
+.field:focus {
+  border-color: orangered;
+  outline: none;
 }
 
 .button {
